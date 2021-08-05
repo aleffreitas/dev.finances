@@ -36,6 +36,7 @@ body {
 .container {
     width: min(90vw, 800px);
     margin: auto;
+    margin-top: 40px;
 }
 
 /* Titles ===========================*/
@@ -53,7 +54,7 @@ a{
 }
 
 a:hover{
-    color: var(--light-green);
+    color: var(--light-green);   
 }
 
 button{
@@ -121,6 +122,10 @@ header{
     border-radius: 0.25rem;
     margin-bottom: 2rem;
     color: var(--dark-purple);
+}
+
+.card:hover{
+   transform: scale(1.08);
 }
 
 .card h3{
